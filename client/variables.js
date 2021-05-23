@@ -1,0 +1,1 @@
+export const INGRESS_SRV = 'http://ingress-nginx-controller.ingress-nginx.svc.cluster.local';
