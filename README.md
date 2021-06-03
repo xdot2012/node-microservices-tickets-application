@@ -25,3 +25,9 @@ kubectl create secret generic jwt-secret --from-literal=JWT_KEY=mysecret
 
 -> ENABLE INGRESS NGNIX
 minikube addons enable ingress
+
+(error ingress controller admission)
+kubectl delete -A ValidatingWebhookConfiguration ingress-nginx-admission
+
+KUBECT PORT FORWARDING
+kubectl port-forward [POD_NAME] [LOCALHOST_PORT]:[POD_PORT]
