@@ -31,3 +31,6 @@ kubectl delete -A ValidatingWebhookConfiguration ingress-nginx-admission
 
 KUBECT PORT FORWARDING
 kubectl port-forward [POD_NAME] [LOCALHOST_PORT]:[POD_PORT]
+
+TODO ->
+Implement Database Transaction with Record Saving and Event Emitting
